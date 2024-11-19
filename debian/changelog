@@ -1,5 +1,50 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-vultr-govultr (2.17.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Add new 01-fix-32bit-overflows.patch to avoid tests overflowing on 32-bit
+    archs
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Sat, 22 Oct 2022 14:40:26 +0000
+
+golang-github-vultr-govultr (2.17.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Daniel Swarbrick ]
+  * New upstream release
+  * Add new build-dep golang-github-google-go-querystring-dev
+  * Replace dh-golang with dh-sequence-golang
+  * Bump Standards-Version to 4.6.1 (no changes)
+  * Change Section to golang
+  * Add Multi-Arch: foreign
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Sat, 22 Oct 2022 13:43:11 +0000
+
+golang-github-vultr-govultr (0.4.2-2) unstable; urgency=medium
+
+  * Add golang-github-hashicorp-go-retryablehttp-dev to Depends:.
+  * Add myself to Uploaders.
+
+ -- Michael Hudson-Doyle <mwhudson@debian.org>  Mon, 06 Jul 2020 15:58:39 +1200
+
+golang-github-vultr-govultr (0.4.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sun, 21 Jun 2020 17:24:16 +0200
+
+golang-github-vultr-govultr (0.1.4+git20190904.cb344cc-2) unstable; urgency=medium
+
+  * upload source package
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sun, 08 Dec 2019 21:02:32 +0000
+
+golang-github-vultr-govultr (0.1.4+git20190904.cb344cc-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Thorsten Alteholz <debian@alteholz.de>  Tue, 10 Sep 2019 20:42:39 +0000
